@@ -3,8 +3,8 @@ BODY{font-family: 'Poppins', sans-serif;margin-left: 20px;}
 /* --------header------- */
 
 nav{display: flex;justify-content:space-between;align-items: center;height: 100px;}
-.navigation{display:flex;font-weight: 600;
-  line-height: 24px;
+.navigation{display:flex;
+  
 }
 .menu{margin: 0 auto;
 padding: 0 30px;margin-bottom: 50px;}
@@ -19,35 +19,45 @@ nav li a{text-decoration: none;
 
 /* ---------main---section------------- */
 .container{width: 80%;}
-.section-1{display: flex;margin-bottom: 50px};
+.section-1{display: flex;margin-bottom: 50px;margin-left: 130px;}
 .section-1 img{
   width: 440px;
   height: 414px;
-  left: 835px;
   top: 211px;}
 
 }
 .information{
-  width: 582px;
+  width: 500px;
   height: 270px;
-  left: 120px;
+  
   top: 285px;
+  border: 0 auto;padding: 10px;
   }
   h1{font-size: 52px;}
-  .anchor{background: #E02C6D;
-    border-radius: 41px;text-decoration: none;padding:10px 20px}
-.photo{margin-right: 30px;}
+  .anchor {background: #E02C6D;
+    border-radius: 41px;text-decoration: none;
+    padding:10px 20px;
+  margin-top: 15px;}
+.photo{margin-left: 70px;}
 
 
   /* ---------------------------------- */
   /* -----section-2-------- */
   /* --------------------------- */
-  .container-2{border: 1px solid chartreuse;
+  .container-2{border: 1px solid chartreuse;width: 1047px;
+    height: 1670px;
+    left: 196px;
+    top: 935px;justify-content: center;margin-left: 390px;}
+
+  .caption{font-size: 28px;height: 70px;
+    width: 262px;
+    margin-left: 400px;margin-bottom: 20px;
+    }
+  .section-2{
   display:grid;
 grid-template-columns: repeat(3,1fr);
 justify-content: center;
-align-items: center;}
-  .caption{font-size: 28px;height: 70px;
-    width: 262px;
-    margin-left: 850px;
-    }
+align-items: ;}
+.product-list{margin-left:17px;padding: 20px ;margin:5px 10px;
+}
+.more{justify-content:flex-end;align-items: flex-end;display: inline-flex;}
