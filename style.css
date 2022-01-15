@@ -110,3 +110,25 @@ align-items: center;background-color: black;color: white;height:180px ;}
 .notice{margin-left:100px;}
 h3{font-size: 25px;margin-bottom: 0px;margin-top: 5px;}
 .join{font-size: 30px;margin-right:5px;margin-top: 5px;}
+
+/* -----------------------------------------------------
+---------------------media queary for phone---------------------
+------------------------------------------------------ */
+
+
+
+
+@media only screen and(max-width:667px) {
+  .section-1,container-3{flex-direction: column;}
+  .section-2{grid-template-columns: repeat(1,1fr);}
+}
+
+
+/* -------------------------------------------------
+---------------for tablet ---------------------------
+----------------------------------------------- */
+
+@media only screen and(min-width:668px) and(max-width:950px) {
+.section-1{grid-template-columns: repeat(2,1fr);}
+
+}
