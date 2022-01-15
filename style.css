@@ -1,11 +1,9 @@
-BODY{font-family: 'Poppins', sans-serif;margin-left: 20px;}
+BODY{font-family: 'Poppins', sans-serif;margin-left:0px;}
 
 /* --------header------- */
 
 nav{display: flex;justify-content:space-between;align-items: center;height: 100px;}
-.navigation{display:flex;
-  
-}
+.navigation{display:flex;}
 .menu{margin: 0 auto;
 padding: 0 30px;margin-bottom: 50px;}
 h2{font-size: 24px;left: 9px;;
@@ -13,7 +11,7 @@ h2{font-size: 24px;left: 9px;;
   top: 2.63px;}
 nav li{list-style: none;margin-right: 15px;}
 nav li a{text-decoration: none;
-  font-size: 16px;color:background: #3A3A3A;
+  font-size:20px;color:background: #3A3A3A;
   ;padding: 0 10px;}
 
 
@@ -34,30 +32,78 @@ nav li a{text-decoration: none;
   border: 0 auto;padding: 10px;
   }
   h1{font-size: 52px;}
-  .anchor {background: #E02C6D;
+  .anchor {background:#E02C6D;
     border-radius: 41px;text-decoration: none;
     padding:10px 20px;
-  margin-top: 15px;}
+  margin-top: 16px;top: 0;
+  position: relative;box-shadow:0 3px 0  #20030e;
+  ;}
 .photo{margin-left: 70px;}
+.anchor:active{top: 4px;cursor: pointer;}
 
+/* -------------------------------------------
+-------------svg--logos-------------------
+--------------------------------------------- */
 
+hr{border: 1px solid rgb(238, 231, 231) ;margin-left: 550px;margin-right: 550px;}
+.svg{margin-left: 530px;}
+.logos{margin-right: 25px;}
+.row{margin-bottom: 60px;margin-right: 550px;}
   /* ---------------------------------- */
   /* -----section-2-------- */
   /* --------------------------- */
-  .container-2{border: 1px solid chartreuse;width: 1047px;
-    height: 1670px;
+  .container-2{width: 1047px;
+    height: 1750px;
     left: 196px;
-    top: 935px;justify-content: center;margin-left: 390px;}
+    top: 935px;justify-content: center;
+    margin-left: 390px;margin-bottom: 80px;}
 
   .caption{font-size: 28px;height: 70px;
     width: 262px;
-    margin-left: 400px;margin-bottom: 20px;
+    margin-left: 400px;
     }
   .section-2{
   display:grid;
 grid-template-columns: repeat(3,1fr);
 justify-content: center;
-align-items: ;}
-.product-list{margin-left:17px;padding: 20px ;margin:5px 10px;
+grid-gap-row:10px;
+margin-bottom: 50px;margin-left:45px;}
+
+.product-list{margin-left:10px;padding:20px;margin:10px ;width: 329px;
+  height: 476px;
+  background: #FFFFFF;
+  box-shadow: 10px 5px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
-.more{justify-content:flex-end;align-items: flex-end;display: inline-flex;}
+.product-list .img{border-radius:10px;}
+
+
+/* --------------------------------- */
+/* --------------section-3--------------------- */
+/* ---------------------------------- */
+.container-3{display: flex;
+  margin-left: 320px;margin-bottom: 70px;
+  }
+.new-product img {height: 270px;
+  width: 404px;
+  border-radius: 7px;
+  }
+  .product-info{margin-left: 96px;}
+  .anchor-2{background:#E02C6D;
+    text-decoration: none;
+    padding:10px 20px;
+  margin-top: 16px;top: 0;
+  position: relative;box-shadow:0 3px 0  #20030e;
+  ;}
+.anchor:active{top: 4px;cursor: pointer;}
+
+
+  /* ------------------------------------------ */
+  /* -----------footer----------------- */
+  /* ------------------------------------- */
+  .social-media{display:flex;
+  flex-direction: column;
+align-items: center;background-color: black;color: white;height:180px ;}
+.note{margin-left:100px;}
+h3{font-size: 25px;margin-bottom: 0px;margin-top: 5px;}
+.join{font-size: 30px;margin-right:5px;margin-top: 5px;}
