@@ -1,4 +1,4 @@
-BODY{font-family: 'Poppins', sans-serif;margin-left:0px;}
+BODY{font-family: 'Poppins', sans-serif;margin-left:0px;margin-right: 0px;}
 
 /* --------header------- */
 
@@ -36,7 +36,7 @@ nav li a{text-decoration: none;
     border-radius: 41px;text-decoration: none;
     padding:10px 20px;
   margin-top: 16px;top: 0;
-  position: relative;box-shadow:0 3px 0  #20030e;
+  position:;box-shadow:0 3px 0  #20030e;
   ;}
 .photo{margin-left: 70px;}
 .anchor:active{top: 4px;cursor: pointer;}
@@ -56,7 +56,7 @@ hr{border: 1px solid rgb(238, 231, 231) ;margin-left: 550px;margin-right: 550px;
     height: 1750px;
     left: 196px;
     top: 935px;justify-content: center;
-    margin-left: 390px;margin-bottom: 80px;}
+    margin-left: 390px;margin-bottom: 80px;margin-bottom: 20px;}
 
   .caption{font-size: 28px;height: 70px;
     width: 262px;
@@ -67,7 +67,7 @@ hr{border: 1px solid rgb(238, 231, 231) ;margin-left: 550px;margin-right: 550px;
 grid-template-columns: repeat(3,1fr);
 justify-content: center;
 grid-gap-row:10px;
-margin-bottom: 50px;margin-left:45px;}
+margin-bottom:20px;margin-left:45px;}
 
 .product-list{margin-left:10px;padding:20px;margin:10px ;width: 329px;
   height: 476px;
@@ -82,7 +82,7 @@ margin-bottom: 50px;margin-left:45px;}
 /* --------------section-3--------------------- */
 /* ---------------------------------- */
 .container-3{display: flex;
-  margin-left: 320px;margin-bottom: 70px;
+  margin-left: 320px;margin-bottom: 40px;
   }
 .new-product img {height: 270px;
   width: 404px;
@@ -104,6 +104,19 @@ margin-bottom: 50px;margin-left:45px;}
   .social-media{display:flex;
   flex-direction: column;
 align-items: center;background-color: black;color: white;height:180px ;}
-.note{margin-left:100px;}
+.notice{margin-left:100px;}
 h3{font-size: 25px;margin-bottom: 0px;margin-top: 5px;}
 .join{font-size: 30px;margin-right:5px;margin-top: 5px;}
+
+/* ------------------------------------------------------------
+------------------responsiv-css--------------------------------
+---------------------------------------------------------- */
+@media (max-width:950px){
+.section-1{
+  grid-template-columns: repeat(1,1fr);
+  height: fit-content;
+}
+.product-list{height: fit-content;}
+.section-2{grid-template-columns: repeat(1,1fr);}
+h1,h2{font-size: 20px;}
+}
